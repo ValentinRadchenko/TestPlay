@@ -1,4 +1,4 @@
-package cert.cert;
+﻿package cert.cert;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -108,6 +108,9 @@ public class Person {
 	 
 			int a=nodeList.getLength();
 			for (int i = 0; i < nodeList.getLength(); i++) {
+
+
+                                                  Role node = nodeList.item(i);
 	 
 				Node node = nodeList.item(i);
 	 
